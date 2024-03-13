@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Nto4OLJw5Nz92lZJake8FgSzs/qMJB58hibJZ1/Msfw=",
+  "Source": "TicTacToe.Shared",
+  "BasePath": "_content/TicTacToe.Shared",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TicTacToe.Shared\\wwwroot",
+      "Source": "TicTacToe.Shared",
+      "ContentRoot": "C:\\Users\\user\\OneDrive - Melior ITS Pvt Ltd\\Desktop\\tictactoe-blazor-main\\src\\TicTacToe.Shared\\wwwroot\\",
+      "BasePath": "_content/TicTacToe.Shared",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\OneDrive - Melior ITS Pvt Ltd\\Desktop\\tictactoe-blazor-main\\src\\TicTacToe.Shared\\wwwroot\\css\\app.css",
+      "SourceId": "TicTacToe.Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive - Melior ITS Pvt Ltd\\Desktop\\tictactoe-blazor-main\\src\\TicTacToe.Shared\\wwwroot\\",
+      "BasePath": "_content/TicTacToe.Shared",
+      "RelativePath": "css/app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<div class="menu-container mt-50-px">   
+    <h1 class="header">Tic Tac Toe @(_board.IsGameOver() ? $"- {_board.Winner}" : "")</h1>
+</div>
+
+<div class="game-container">
+    @for (int i = 0; i < 3; i++)
+    {
+        <div class="row" id="@i">
+            @for (int j = 0; j < 3; j++)
+            {
+                int row = i;
+                int col = j;
+                <div @onclick="() => BoxClicked(row, col)" class="@IsWinnerCell(row, col)" id="column-@row-@col">@_board.GetCellPlayer(row, col)</div>
+            }
+        </div>
+    }
+</div>
+
+<div class="menu-buttons">
+    <button class="menu-button" @onclick="RestartGame">Restart</button>
+    <button class="menu-button" @onclick="GoBack">Exit</button>
+</div>
